@@ -16843,19 +16843,13 @@ a.pswp__share--download:hover {
   overflow: hidden;
 }
 .pswp--css_animation .pswp__preloader__donut {
-  box-sizing: border-box;
-  width: 14px;
-  height: 14px;
-  border: 2px solid #FFF;
-  border-radius: 50%;
-  border-left-color: transparent;
-  border-bottom-color: transparent;
-  position: absolute;
-  top: 0;
-  left: 0;
-  background: none;
-  margin: 0;
-}
+      box-sizing: border-box;
+      width: 14px;
+      height: 14px;
+      border: 2px solid #FFF;
+      border-radius: 50%;
+      border-left-color: transparent;
+    }
 @media screen and (max-width: 1024px) {
   .pswp__preloader {
     position: relative;
@@ -16866,24 +16860,15 @@ a.pswp__share--download:hover {
   }
 }
 @keyframes clockwise {
-  0% {
-    transform: rotate(0deg);
-  }
-  100% {
-    transform: rotate(360deg);
-  }
-}
-@keyframes donut-rotate {
-  0% {
-    transform: rotate(0);
-  }
-  50% {
-    transform: rotate(-140deg);
-  }
-  100% {
-    transform: rotate(0);
-  }
-}
+      0% { transform: rotate(0deg); }
+      100% { transform: rotate(360deg); }
+    }
+
+    @keyframes donut-rotate {
+      0% { transform: rotate(0deg); }
+      50% { transform: rotate(140deg); }
+      100% { transform: rotate(360deg); }
+    }
 /*
 
 	6. Additional styles
