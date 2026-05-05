@@ -59,10 +59,12 @@ body {
 
 .menu-main a {
   text-decoration: none;
+  justify-content: center;
+  align-items: center;
   display: block;
   position: relative;
   line-height: 61px;
-  padding-left: 20px;
+  padding: 0 10px;  
   font-size: 18px;
   letter-spacing: 2px;
   font-family: 'Arimo', sans-serif;
@@ -78,7 +80,8 @@ body {
   background: #F73E24;
   position: absolute;
   left: 50%;
-  transform: rotate(45deg) translateX(6.5px);
+  bottom: 10px; 
+  transform: translateX(-50%) rotate(45deg); 
   opacity: 0;
   transition: .3s linear;
 }
