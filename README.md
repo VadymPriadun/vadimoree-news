@@ -1,43 +1,63 @@
-# Vadimoree News — Навчальний проект новинного порталу
+# Vadimoree News
 
-Це навчальний проект, створений у рамках шкільної програми з вивчення веб-технологій. Сайт являє собою багатосторінковий новинний портал з категоріями, статтями та формою зворотного зв'язку.
+This is a learning project created as part of a school web development course.
+It is a multi-page news website with categories, articles, and a contact form.
 
-## 📌 Про проект
-Проект демонструє базові навички роботи з HTML, CSS та JavaScript. Основна увага приділялася побудові структури сайту, адаптивній верстці та організації внутрішньої навігації між розділами.
+## 📌 About
 
-> **Примітка:** Оскільки це навчальний проект, він може містити певні недоліки у верстці, надлишкові стилі (згенеровані конструкторами) або застарілі бібліотеки. Це частина процесу навчання та вдосконалення навичок.
+This project demonstrates basic skills in:
 
-## 🛠 Технології
-* **HTML5** — семантична структура сторінок.
-* **CSS3** — стилізація, Flexbox, анімації.
-* **Bootstrap 3.3.6** — сітка та базові компоненти.
-* **jQuery 1.9.1** — скрипти для інтерактивності.
-* **Nicepage** — використано як базу для генерації початкового дизайну.
+* HTML
+* CSS
+* JavaScript
 
-## 📂 Структура проекту
-- `index.html` — Головна сторінка.
-- `allnews.html` — Список усіх новин.
-- `Contact.html` — Сторінка контактів.
-- `news/` — Папка з окремими сторінками статей.
-- `css/` — Таблиці стилів (основні та допоміжні).
-- `js/` — JavaScript бібліотеки та кастомні скрипти.
-- `images/` — Графічні ресурси проекту.
+The main focus was on building the site structure, responsive layout, and navigation between pages.
 
-## 🚀 Як запустити
-1. Склонуйте репозиторій:
-   ```bash
-   git clone [https://github.com/VadymPriadun/vadympriadun1.github.io.git](https://github.com/VadymPriadun/vadympriadun1.github.io.git)
-   ```
-   Відкрийте файл index.html у будь-якому сучасному браузері.
+## ⚠️ Note
 
-📈 План вдосконалення (ToDo)
+Since this is a learning project, the code may include:
 
-[ ] Оптимізувати CSS та видалити дублікати стилів.
+* layout imperfections
+* redundant styles (from builders)
+* outdated libraries
 
-[ ] Оновити Bootstrap до версії 5 та відмовитися від jQuery.
+This is part of the learning process.
 
-[ ] Зробити форму контактів робочою за допомогою PHP або JS-сервісів.
+## 🛠 Technologies
 
-[ ] Покращити доступність (Accessibility) та SEO-оптимізацію.
+* HTML5 — page structure
+* CSS3 — styling, Flexbox, animations
+* Bootstrap 3.3.6 — grid and components
+* jQuery 1.9.1 — interactivity
+* Nicepage — used for initial design generation
 
-Створено в освітніх цілях. 2024 рік.
+## 📂 Project Structure
+
+* `index.html` — Home page
+* `allnews.html` — All news page
+* `Contact.html` — Contact page
+* `news/` — Article pages
+* `css/` — Stylesheets
+* `js/` — Scripts and libraries
+* `images/` — Images
+
+## 🚀 How to run
+
+Clone the repository:
+
+```
+git clone https://github.com/VadymPriadun/vadympriadun1.github.io.git
+```
+
+Then open `index.html` in your browser.
+
+## 📈 ToDo
+
+* [ ] Clean up and optimize CSS
+* [ ] Upgrade to Bootstrap 5 and remove jQuery
+* [ ] Make contact form functional (PHP or JS services)
+* [ ] Improve accessibility and SEO
+
+---
+
+Created for educational purposes. 2024
